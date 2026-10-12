@@ -1,0 +1,30 @@
+/* Static comparison corrections: original 384px query layout, 85px cards. */
+.query-note{margin:0 16px 11px;line-height:20px}
+.slots{padding-right:10px}
+.slot{gap:11px}
+.slot p{margin-top:3.5px}
+.stock{width:47px;margin-left:0}
+.trace-row .code{font-weight:600;color:inherit}
+.code{font-size:14px}
+.form-error{font-size:12px;color:#df6263;line-height:20px;margin:4px 0}
+.success-mark{display:grid;place-items:center;width:44px;height:44px;background:#ffefdf;border-radius:50%;color:#ff8d28;font-size:24px;margin:0 auto 12px}
+.device.trace-mode{width:360px;height:773.273px}
+.device.scan-mode{width:378px;height:775px}
+.device{transition:width .2s ease,height .2s ease}
+.batch{padding-top:32px;padding-bottom:28px;min-height:0}
+.trace-row,.trace-row.entry-row{height:32px;padding-top:3px;padding-bottom:3px}
+.batch-tag{clip-path:none;background:transparent url('assets/c1835.svg') no-repeat left top}
+.batch.selected .batch-tag{background:transparent url('assets/c3206.svg') no-repeat left top}
+.destination .batch-tag{background:transparent url('assets/047f1.svg') no-repeat left top}
+.batch-date{height:22px;width:142px;clip-path:none;background:transparent url('assets/5821a.svg') no-repeat;white-space:nowrap;text-align:right;padding-right:6px}
+.selected .batch-date,.destination .batch-date{background:transparent url('assets/d7cda.svg') no-repeat}
+.modal h3{margin-left:0;margin-right:0}
+.modal-actions{margin-left:18px}
+.modal-actions button:first-child{flex:0 0 150px}
+.batch-date{font-size:11px;padding-left:10px;padding-right:3px}
+.batch-tag{width:119px;isolation:isolate;background:none!important;clip-path:none}
+.batch-tag:before{content:"";position:absolute;inset:0;background:url('assets/c1835.svg') no-repeat;transform:rotate(180deg);z-index:-1}
+.batch.selected .batch-tag:before{background-image:url('assets/c3206.svg')}
+.destination .batch-tag{width:64px}
+.destination .batch-tag:before{background-image:url('assets/047f1.svg')}
+@media(max-width:650px){.device.trace-mode,.device.scan-mode{width:100vw;height:100dvh}}
